@@ -7,6 +7,7 @@ defmodule SimpleChatServer.Chat do
   alias SimpleChatServer.Repo
 
   alias SimpleChatServer.Chat.Room
+  @limit 100
 
   @doc """
   Returns the list of rooms.

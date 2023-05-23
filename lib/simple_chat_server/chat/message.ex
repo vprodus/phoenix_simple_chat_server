@@ -2,7 +2,6 @@ defmodule SimpleChatServer.Chat.Message do
   use Ecto.Schema
   import Ecto.Changeset
 
-  @derive {Jason.Encoder, except: [:__meta__]}
   schema "messages" do
     field :content, :string
     field :room_id, :id
